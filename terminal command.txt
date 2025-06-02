@@ -1,0 +1,7 @@
+python image_to_svg.py jahid.jpg jahid_outline.svg --threshold_block_size 21 --threshold_c 8 --min_contour_len 30 --stroke_width 1.5
+
+
+
+change value accordingly
+
+python image_to_svg.py wallpaper.png ./new/wallpaper.svg --min_contour_len 10 --stroke_color "#FFFFFF" --stroke_width 1.0 --background_color "#000000" --threshold_block_size 11 --threshold_c 2
